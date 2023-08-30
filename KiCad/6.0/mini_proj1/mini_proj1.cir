@@ -1,0 +1,13 @@
+.title KiCad schematic
+R3 Net-_R2-Pad2_ GND R_US
+R2 Net-_R1-Pad1_ Net-_R2-Pad2_ R_US
+Q1 Net-_C2-Pad1_ Net-_C1-Pad1_ Net-_C3-Pad1_ MCP1702-3302E_TO
+C1 Net-_C1-Pad1_ GND C=1uF
+D1 GND Net-_D1-Pad2_ LED
+R4 Net-_D1-Pad2_ Net-_R1-Pad1_ R_US
+J1 Net-_C1-Pad1_ unconnected-_J1-Pad2_ unconnected-_J1-Pad3_ GND unconnected-_J1-Pad5_ USB_A
+C2 Net-_C2-Pad1_ GND C=1uF
+C3 Net-_C3-Pad1_ GND C
+U1 Net-_R1-Pad1_ Net-_C3-Pad1_ Net-_R2-Pad2_ MCP6022
+R1 Net-_R1-Pad1_ Net-_C3-Pad1_ R_US
+.end
